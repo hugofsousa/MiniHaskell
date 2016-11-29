@@ -7,21 +7,16 @@ package br.unb.poo.mh;
  */
 public class Igual extends ExpressaoBinaria {
 	
-	/**
-	 * 
-	 * @param expDireita -> MAIOR
-	 * @param expEsquerda -> MENOR
-	 */
 	public Igual(Expressao expDireita, Expressao expEsquerda) {
 		super(expDireita, expEsquerda);
 	}
 
 	@Override
 	public Valor avaliar() {
-		ValorInteiro vMaior = (ValorInteiro) expDireita.avaliar();
-		ValorInteiro vMenor = (ValorInteiro) expEsquerda.avaliar();
+		ValorInteiro vd = (ValorInteiro) expDireita.avaliar();
+		ValorInteiro ve = (ValorInteiro) expEsquerda.avaliar();
 		
-		return new ValorBooleano(vMaior.getValor() > vMenor.getValor());
+		return new ValorBooleano(vd.getValor() == ve.getValor());
 	}
 
 	@Override
