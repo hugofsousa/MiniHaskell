@@ -83,4 +83,9 @@ public class PrettyPrinter implements Visitor{
 		visitarEB(exp, "||");
 	}
 
+	@Override
+	public void visitar(Igual exp) {
+		visitarEB(exp, "==");
+	}
+
 }

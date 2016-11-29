@@ -20,4 +20,5 @@ public interface Visitor {
 	public abstract void visitar(Identificador exp);
 	public abstract void visitar(And exp);
 	public abstract void visitar(Or exp);
+	public abstract void visitar(Igual exp);
 }
