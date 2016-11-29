@@ -12,6 +12,7 @@ public interface Visitor {
 	public void visitar(ValorInteiro exp);
 	public void visitar(ValorBooleano exp);
 	public void visitar(ExpressaoSoma exp);
+	public void visitar(Divisao exp);
 	public void visitar(Multiplicacao exp);
 	public void visitar(IfThenElse exp);
 	public void visitar(AplicacaoFuncao exp);

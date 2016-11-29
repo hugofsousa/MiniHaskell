@@ -63,4 +63,13 @@ public class PrettyPrinter implements Visitor{
 		System.out.println(exp.id);
 	}
 
+	@Override
+	public void visitar(Divisao exp) {
+		System.out.print("(");
+		exp.expEsquerda.aceitar(this);
+		System.out.print("/");
+		exp.expDireita.aceitar(this);
+		System.out.print(")");
+	}
+
 }
