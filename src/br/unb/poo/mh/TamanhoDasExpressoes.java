@@ -74,4 +74,12 @@ public class TamanhoDasExpressoes implements Visitor {
 		exp.expDireita.aceitar(this);
 		tamanho += 1;
 	}
+
+	@Override
+	public void visitar(Or exp) {
+		exp.expEsquerda.aceitar(this);
+		exp.expDireita.aceitar(this);
+		tamanho += 1;
+	}
+
 }
