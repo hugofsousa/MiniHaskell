@@ -11,23 +11,23 @@ public class PrettyPrinter implements Visitor{
 	public void visitar(ValorBooleano exp) {
 		System.out.print(exp.getValor());
 	}
-
-	@Override
-	public void visitar(ExpressaoSoma exp) {
+	
+	public void visitarEB(ExpressaoBinaria exp, String operador){
 		System.out.print("(");
 		exp.expEsquerda.aceitar(this);
-		System.out.print("+");
+		System.out.print(operador);
 		exp.expDireita.aceitar(this);
 		System.out.print(")");
 	}
 
 	@Override
+	public void visitar(ExpressaoSoma exp) {
+		visitarEB(exp, "+");
+	}
+
+	@Override
 	public void visitar(Multiplicacao exp) {
-		System.out.print("(");
-		exp.expEsquerda.aceitar(this);
-		System.out.print("*");
-		exp.expDireita.aceitar(this);
-		System.out.print(")");
+		visitarEB(exp, "*");
 	}
 
 	@Override
@@ -65,38 +65,22 @@ public class PrettyPrinter implements Visitor{
 
 	@Override
 	public void visitar(Divisao exp) {
-		System.out.print("(");
-		exp.expEsquerda.aceitar(this);
-		System.out.print("/");
-		exp.expDireita.aceitar(this);
-		System.out.print(")");
+		visitarEB(exp, "/");
 	}
 
 	@Override
 	public void visitar(ExpressaoSubtracao exp) {
-		System.out.print("(");
-		exp.expEsquerda.aceitar(this);
-		System.out.print("-");
-		exp.expDireita.aceitar(this);
-		System.out.print(")");
+		visitarEB(exp, "-");
 	}
 
 	@Override
 	public void visitar(And exp) {
-		System.out.print("(");
-		exp.expEsquerda.aceitar(this);
-		System.out.print("&&");
-		exp.expDireita.aceitar(this);
-		System.out.print(")");
+		visitarEB(exp, "&&");
 	}
 
 	@Override
 	public void visitar(Or exp) {
-		System.out.print("(");
-		exp.expEsquerda.aceitar(this);
-		System.out.print("||");
-		exp.expDireita.aceitar(this);
-		System.out.print(")");
+		visitarEB(exp, "||");
 	}
 
 }
