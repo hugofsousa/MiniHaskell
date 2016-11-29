@@ -2,7 +2,7 @@ package br.unb.poo.mh;
 
 /**
  * 
- * @author Hugo
+ * @author Hugo & Eduardo
  *
  */
 public class And extends ExpressaoBinaria {

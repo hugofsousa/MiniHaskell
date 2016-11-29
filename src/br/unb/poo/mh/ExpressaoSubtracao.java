@@ -1,5 +1,10 @@
 package br.unb.poo.mh;
 
+/**
+ * 
+ * @author Hugo & Eduardo
+ *
+ */
 public class ExpressaoSubtracao extends ExpressaoBinaria {
 	
 	public ExpressaoSubtracao(ValorInteiro expDireita, ValorInteiro expEsquerda){
