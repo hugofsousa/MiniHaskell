@@ -9,13 +9,14 @@ package br.unb.poo.mh;
  *
  */
 public interface Visitor {
-	public void visitar(ValorInteiro exp);
-	public void visitar(ValorBooleano exp);
-	public void visitar(ExpressaoSoma exp);
-	public void visitar(ExpressaoSubtracao exp);
-	public void visitar(Divisao exp);
-	public void visitar(Multiplicacao exp);
-	public void visitar(IfThenElse exp);
-	public void visitar(AplicacaoFuncao exp);
-	public void visitar(Identificador exp);
+	public abstract void visitar(ValorInteiro exp);
+	public abstract void visitar(ValorBooleano exp);
+	public abstract void visitar(ExpressaoSoma exp);
+	public abstract void visitar(ExpressaoSubtracao exp);
+	public abstract void visitar(Divisao exp);
+	public abstract void visitar(Multiplicacao exp);
+	public abstract void visitar(IfThenElse exp);
+	public abstract void visitar(AplicacaoFuncao exp);
+	public abstract void visitar(Identificador exp);
+	public abstract void visitar(And exp);
 }

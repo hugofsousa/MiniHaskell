@@ -81,4 +81,13 @@ public class PrettyPrinter implements Visitor{
 		System.out.print(")");
 	}
 
+	@Override
+	public void visitar(And exp) {
+		System.out.print("(");
+		exp.expEsquerda.aceitar(this);
+		System.out.print("&&");
+		exp.expDireita.aceitar(this);
+		System.out.print(")");
+	}
+
 }
