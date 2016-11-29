@@ -80,5 +80,10 @@ public class TamanhoDasExpressoes implements Visitor {
 	public void visitar(Igual exp) {
 		visitarEB(exp);
 	}
+	
+	@Override
+	public void visitar(MaiorQue exp) {
+		visitarEB(exp);
+	}
 
 }
