@@ -19,14 +19,5 @@ public class TesteExpressaoMultiplicacao {
 		
 		Assert.assertEquals(new ValorInteiro(150), m.avaliar());
 	}
-	
-	@Test
-	public void testeExpressaoNok() {
-		ValorInteiro v10 = new ValorInteiro(10);
-		ValorBooleano vtrue = new ValorBooleano(true);
-		
-		Expressao m = new Multiplicacao(v10, new ExpressaoSoma(v10, vtrue));
-		
-		m.avaliar();
-	}
+
 }

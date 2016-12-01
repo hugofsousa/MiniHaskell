@@ -100,6 +100,12 @@ public class PrettyPrinter implements Visitor{
 	}
 
 	@Override
+	public void visitar(MenorQue exp) {
+		visitarEB(exp, "<");
+
+	}
+
+	@Override
 	public void visitar(Not exp) {
 		visitarEU(exp);
 	}
