@@ -20,6 +20,11 @@ public class PrettyPrinter implements Visitor{
 		System.out.print(")");
 	}
 
+	public void visitarEU(ExpressaoUnaria exp){
+		System.out.print("!");
+		exp.exp.aceitar(this);
+	}
+
 	@Override
 	public void visitar(ExpressaoSoma exp) {
 		visitarEB(exp, "+");
@@ -92,6 +97,11 @@ public class PrettyPrinter implements Visitor{
 	public void visitar(MaiorQue exp) {
 		visitarEB(exp, ">");
 		
+	}
+
+	@Override
+	public void visitar(Not exp) {
+		visitarEU(exp);
 	}
 
 }

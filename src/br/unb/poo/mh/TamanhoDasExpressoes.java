@@ -12,7 +12,12 @@ public class TamanhoDasExpressoes implements Visitor {
 		 exp.expDireita.aceitar(this);
 		 tamanho += 1;
 	}
-	
+
+	public void visitarEU(ExpressaoUnaria exp){
+		exp.exp.aceitar(this);
+		tamanho += 1;
+	}
+
 	@Override
 	public void visitar(ValorInteiro exp) {
 		tamanho += 1;
@@ -84,6 +89,11 @@ public class TamanhoDasExpressoes implements Visitor {
 	@Override
 	public void visitar(MaiorQue exp) {
 		visitarEB(exp);
+	}
+
+	@Override
+	public void visitar(Not exp) {
+		visitarEU(exp);
 	}
 
 }
