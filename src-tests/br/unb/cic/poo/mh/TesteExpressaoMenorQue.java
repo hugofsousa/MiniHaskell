@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 public class TesteExpressaoMenorQue {
     @Test
-    public void testMenorSimples() {
+    public void TesteMenorSimples() {
         ValorInteiro int100  = new ValorInteiro(100);
         ValorInteiro int90 = new ValorInteiro(90);
 

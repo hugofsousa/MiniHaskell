@@ -1,12 +1,16 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.*;
+
+import br.unb.poo.mh.And;
+import br.unb.poo.mh.Or;
+import br.unb.poo.mh.ValorBooleano;
+import br.unb.poo.mh.Not;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TesteExpressaoNot {
     @Test
-    public void testNOTSimples() {
+    public void TesteNotUm() {
         ValorBooleano teste_false  = new ValorBooleano(false);
         ValorBooleano teste_true = new ValorBooleano(true);
 
@@ -22,7 +26,7 @@ public class TesteExpressaoNot {
 
 
     @Test
-    public void testNOTComplexa() {
+    public void TesteNotDois() {
         ValorBooleano teste_true  = new ValorBooleano(true);	//new ValorBooleano(true);
         ValorBooleano teste_false = new ValorBooleano(false);	//new ValorBooleano(false);
 
