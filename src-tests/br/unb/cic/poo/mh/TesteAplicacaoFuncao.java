@@ -3,53 +3,67 @@ package br.unb.cic.poo.mh;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.unb.poo.mh.Ambiente;
-import br.unb.poo.mh.AplicacaoFuncao;
-import br.unb.poo.mh.DeclaracaoFuncao;
-import br.unb.poo.mh.Expressao;
-import br.unb.poo.mh.ExpressaoSoma;
-import br.unb.poo.mh.Identificador;
-import br.unb.poo.mh.PrettyPrinter;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.ValorInteiro;
-
 public class TesteAplicacaoFuncao {
 
-	private DeclaracaoFuncao soma;
-	
-	@Before
-	public void setUp() {
-		List<String> args = new ArrayList<>();
-		args.add("x");
-		args.add("y");
-		Expressao corpo = new ExpressaoSoma(new Identificador("x"), 
-				new Identificador("y"));
-		
-		soma = new DeclaracaoFuncao("soma", args, corpo);
-		Ambiente.instance().declaraFuncao(soma);
-	
-	}
-	
 	@Test
-	public void testeAplicacaoFuncao() {
-		List<Expressao> parametros = new ArrayList<>();
-		parametros.add(new ValorInteiro(3));
-		parametros.add(new ExpressaoSoma(new ValorInteiro(4), new ValorInteiro(5)));
-		
-		Expressao aplicaSoma = new AplicacaoFuncao("soma", parametros);
-		
-		Assert.assertEquals(new ValorInteiro(12), aplicaSoma.avaliar());
-		
-		PrettyPrinter pp = new PrettyPrinter();
-		TamanhoDasExpressoes t = new TamanhoDasExpressoes();
-		
-		aplicaSoma.aceitar(pp);
-		aplicaSoma.aceitar(t);
-		
-		Assert.assertEquals(t.getTamanho(), 5);
+	public void testFuncaoAplicacaoBasica (){
+		List<ArgumentoFormal> argumentos = new ArrayList<ArgumentoFormal>();
+		ArgumentoFormal arg1 = new ArgumentoFormal("X", Tipo.Inteiro);
+		argumentos.add(arg1);
+
+		DeclaracaoFuncao funcao = new DeclaracaoFuncao("dobra", argumentos, new Multiplicacao(new Identificador("X"), new ValorInteiro(2)));
+		Ambiente.instance().declaraFuncao(funcao);
+
+		List<Expressao> valoresArgumentos = new ArrayList<Expressao>();
+		valoresArgumentos.add(new ValorInteiro(4));
+
+		AplicacaoFuncao expressao = new AplicacaoFuncao("dobra", valoresArgumentos);
+
+		ValorInteiro resultado = (ValorInteiro) expressao.avaliar();
+
+		Assert.assertEquals(new Integer(8), resultado.getValor());
 	}
+
+	public void testAplicacaoComplexa(){
+		List<ArgumentoFormal> argumentos = new ArrayList<ArgumentoFormal>();
+		ArgumentoFormal arg1 = new ArgumentoFormal("X", Tipo.Inteiro);
+		argumentos.add(arg1);
+
+		Expressao condicao = new MenorOuIgual(new Identificador("X"), new ValorInteiro(2));
+		Expressao then = new Identificador("X");
+		Expressao clausulaElse = new Multiplicacao(new Identificador("X"), new ValorInteiro(2));
+
+		DeclaracaoFuncao funcao = new DeclaracaoFuncao("MultiplicaAcimaDeDois", argumentos,
+				new IfThenElse(condicao, then, clausulaElse));
+		Ambiente.instance().declaraFuncao(funcao);
+
+		List<Expressao> valoresArgumentos = new ArrayList<Expressao>();
+		valoresArgumentos.add(new ValorInteiro(3));
+
+		AplicacaoFuncao expressao = new AplicacaoFuncao("MultiplicaAcimaDeDois", valoresArgumentos);
+
+		ValorInteiro resultado = (ValorInteiro) expressao.avaliar();
+		Assert.assertEquals(new Integer(6), resultado.getValor());
+
+		valoresArgumentos.remove(0);
+		valoresArgumentos.add(new ValorInteiro(2));
+
+		expressao = new AplicacaoFuncao("MultiplicaAcimaDeDois", valoresArgumentos);
+		resultado = (ValorInteiro) expressao.avaliar();
+		Assert.assertEquals(new Integer(2), resultado.getValor());
+
+		valoresArgumentos.remove(0);
+		valoresArgumentos.add(new ValorInteiro(1));
+
+		expressao = new AplicacaoFuncao("MultiplicaAcimaDeDois", valoresArgumentos);
+		resultado = (ValorInteiro) expressao.avaliar();
+		Assert.assertEquals(new Integer(1), resultado.getValor());
+
+	}
+
 }

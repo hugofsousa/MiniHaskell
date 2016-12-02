@@ -8,10 +8,10 @@ import br.unb.poo.mh.Divisao;
 import br.unb.poo.mh.IfThenElse;
 import br.unb.poo.mh.Igual;
 import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.ValorInteiro;
-import junit.framework.Assert;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class TesteIfThenElse {
 	
