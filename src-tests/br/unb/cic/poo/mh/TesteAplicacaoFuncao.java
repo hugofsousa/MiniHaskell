@@ -49,6 +49,7 @@ public class TesteAplicacaoFuncao {
 		
 		aplicaSoma.aceitar(pp);
 		aplicaSoma.aceitar(t);
-		System.out.println(t.getTamanho());
+		
+		Assert.assertEquals(t.getTamanho(), 5);
 	}
 }

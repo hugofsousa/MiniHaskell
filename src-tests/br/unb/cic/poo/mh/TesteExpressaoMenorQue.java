@@ -1,6 +1,8 @@
 package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.MenorQue;
+import br.unb.poo.mh.TamanhoDasExpressoes;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.ValorInteiro;
 import org.junit.Assert;
@@ -20,5 +22,10 @@ public class TesteExpressaoMenorQue {
         ValorBooleano res = (ValorBooleano)menor.avaliar();
 
         Assert.assertEquals(false, res.getValor());
+        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        menor.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 }

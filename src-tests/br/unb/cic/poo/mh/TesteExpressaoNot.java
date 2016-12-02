@@ -3,6 +3,8 @@ package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.And;
 import br.unb.poo.mh.Or;
+import br.unb.poo.mh.TamanhoDasExpressoes;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.Not;
 import org.junit.Assert;
@@ -22,6 +24,11 @@ public class TesteExpressaoNot {
 
         Assert.assertEquals(new Boolean(false), res1.getValor());
         Assert.assertEquals(new Boolean(true), res2.getValor());
+        Assert.assertEquals(not1.tipo(), Tipo.Booleano);
+        
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        not1.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 2);
     }
 
 

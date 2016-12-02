@@ -1,6 +1,8 @@
 package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.MaiorQue;
+import br.unb.poo.mh.TamanhoDasExpressoes;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.ValorInteiro;
 import org.junit.Assert;
@@ -21,5 +23,10 @@ public class TesteMaiorQue {
 
         Assert.assertEquals(true, res.getValor());
         Assert.assertEquals(false, res2.getValor());
+        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        menor.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 }
