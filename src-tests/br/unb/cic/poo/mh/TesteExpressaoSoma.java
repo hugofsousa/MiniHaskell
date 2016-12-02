@@ -18,7 +18,6 @@ public class TesteExpressaoSoma {
 
 	public void testeSomaSimples() {
 		ValorInteiro v15 = new ValorInteiro(15);
-		
 		Assert.assertEquals(v15, soma.avaliar());
 	}
 	

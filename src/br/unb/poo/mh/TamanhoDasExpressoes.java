@@ -92,6 +92,21 @@ public class TamanhoDasExpressoes implements Visitor {
 	}
 
 	@Override
+	public void visitar(MenorQue exp) {
+		visitarEB(exp);
+	}
+
+	@Override
+	public void visitar(MenorOuIgual exp) {
+		visitarEB(exp);
+	}
+
+	@Override
+	public void visitar(MaiorOuIgual exp) {
+		visitarEB(exp);
+	}
+
+	@Override
 	public void visitar(Not exp) {
 		visitarEU(exp);
 	}

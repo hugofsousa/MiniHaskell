@@ -1,20 +1,21 @@
 package br.unb.cic.poo.mh;
 
+
 import br.unb.poo.mh.And;
-import br.unb.poo.mh.Not;
 import br.unb.poo.mh.Or;
 import br.unb.poo.mh.ValorBooleano;
+import br.unb.poo.mh.Not;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class TesteExpressaoNot {
     @Test
-    public void testNOTSimples() {
-        ValorBooleano falso  = new ValorBooleano(false);
-        ValorBooleano verdadeiro = new ValorBooleano(true);
+    public void TesteNotUm() {
+        ValorBooleano teste_false  = new ValorBooleano(false);
+        ValorBooleano teste_true = new ValorBooleano(true);
 
-        Not not1 = new Not(verdadeiro);
-        Not not2 = new Not(falso);
+        Not not1 = new Not(teste_true);
+        Not not2 = new Not(teste_false);
 
         ValorBooleano res1 = (ValorBooleano)not1.avaliar();
         ValorBooleano res2 = (ValorBooleano)not2.avaliar();
@@ -25,18 +26,18 @@ public class TesteExpressaoNot {
 
 
     @Test
-    public void testNOTComplexa() {
-        ValorBooleano vTrue  = new ValorBooleano(true);	//new ValorBooleano(true);
-        ValorBooleano vFalse = new ValorBooleano(false);	//new ValorBooleano(false);
+    public void TesteNotDois() {
+        ValorBooleano teste_true  = new ValorBooleano(true);	//new ValorBooleano(true);
+        ValorBooleano teste_false = new ValorBooleano(false);	//new ValorBooleano(false);
 
-        Or or1 = new Or(vTrue, vFalse);
-        And and = new And(vTrue, vTrue);
+        Or or1 = new Or(teste_true, teste_false);
+        And and = new And(teste_true, teste_true);
         Or or2 = new Or(or1, and);
         Not not = new Not(or2);
 
         ValorBooleano res = (ValorBooleano) not.avaliar();
 
-        Assert.assertEquals(vFalse, res);
+        Assert.assertEquals(teste_false, res);
     }
 
 }
