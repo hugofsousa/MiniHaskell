@@ -5,7 +5,7 @@ package br.unb.poo.mh;
  */
 public class Divisao extends ExpressaoBinaria {
 	
-	public Divisao(Expressao expDireita, Expressao expEsquerda) {
+	public Divisao(Expressao expEsquerda, Expressao expDireita) {
 		super(expDireita, expEsquerda);
 	}
 	

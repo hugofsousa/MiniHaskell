@@ -8,28 +8,16 @@ import org.junit.Test;
 
 public class TesteDivisao {
 
-//    @Test
-//    public void TesteDivisao() {
-//        ValorInteiro v10 = new ValorInteiro(10);
-//        ValorInteiro v5 = new ValorInteiro(5);
-//        Divisao div = new Divisao(v10, v5);
-//        Assert.assertEquals(new ValorInteiro(2), div.avaliar());
-//    }
-
     @Test
-    public void testDivisaoSimples() {
-        ValorInteiro v20  = new ValorInteiro(20);
+    public void TesteDivisaoUm() {
         ValorInteiro v10 = new ValorInteiro(10);
-
-        Divisao divisao = new Divisao(v20, v10);
-
-        ValorInteiro res = (ValorInteiro)divisao.avaliar();
-
-        Assert.assertEquals(new Integer(2), res.getValor());
+        ValorInteiro v5 = new ValorInteiro(5);
+        Divisao div = new Divisao(v10, v5);
+        Assert.assertEquals(new ValorInteiro(2), div.avaliar());
     }
 
     @Test
-    public void testDivisaoComplexa() {
+    public void TesteDivisaoDois() {
         ValorInteiro v100  = new ValorInteiro(100);
         ValorInteiro v10 = new ValorInteiro(10);
         ValorInteiro v5  = new ValorInteiro(5);

@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ad05a7-738b-42af-9e0b-d757bf681629" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Divisao.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Divisao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java" />
     </list>
     <ignored path="MiniHaskell.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,30 +30,7 @@
     <favorites_list name="MiniHaskell" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TesteDivisao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Divisao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,7 +59,6 @@
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/MenorQue.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/MenorouIgual.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/MenorouIgual.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" />
         <option value="$PROJECT_DIR$/src/br/unb/cic/poo/mh/MaiorOuIgual.java" />
         <option value="$PROJECT_DIR$/src/br/unb/cic/poo/mh/Visitor.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/MaiorOuIgual.java" />
@@ -88,16 +68,19 @@
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoNot.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/poo/mh/TesteIfThenElse.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoOr.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAnd.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteMaiorQue.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteMaiorQue.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" />
+        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java" />
+        <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" />
       </list>
     </option>
   </component>
@@ -138,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,24 +149,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniHaskell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniHaskell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,6 +160,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,85 +189,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TesteMaiorQue">
-    <configuration default="false" name="TesteExpressaoOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MiniHaskell" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
-      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteExpressaoOr" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TesteAnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MiniHaskell" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
-      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteAnd" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TesteAnd.TesteOrUm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MiniHaskell" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
-      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteAnd" />
-      <option name="METHOD_NAME" value="TesteOrUm" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TesteExpressaoSubtracao">
     <configuration default="false" name="TesteDivisao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -341,6 +228,84 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
       <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteMaiorQue" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TesteIgual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MiniHaskell" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
+      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteIgual" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TesteExpressaoSubtracao.testeSubtracaoSimples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MiniHaskell" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
+      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteExpressaoSubtracao" />
+      <option name="METHOD_NAME" value="testeSubtracaoSimples" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TesteExpressaoSubtracao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MiniHaskell" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
+      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteExpressaoSubtracao" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -582,6 +547,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -750,6 +716,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -779,19 +751,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TesteExpressaoOr" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TesteAnd" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TesteAnd.TesteOrUm" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TesteDivisao" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TesteDivisao" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TesteIgual" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TesteExpressaoSubtracao.testeSubtracaoSimples" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TesteExpressaoSubtracao" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TesteDivisao" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TesteAnd" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TesteAnd.TesteOrUm" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TesteExpressaoOr" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TesteExpressaoSubtracao" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TesteExpressaoSubtracao.testeSubtracaoSimples" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TesteIgual" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TesteDivisao" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
       </list>
     </recent_temporary>
   </component>
@@ -806,33 +778,34 @@
       <option name="presentableId" value="Default" />
       <updated>1480613626770</updated>
       <workItem from="1480613633161" duration="16430000" />
+      <workItem from="1480638087629" duration="2856000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TesteAnd - 2016.12.01 at 21h 46m 30s.xml">
-      <configuration name="TesteAnd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteAnd - 2016.12.01 at 21h 46m 43s.xml">
-      <configuration name="TesteAnd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDivisao - 2016.12.01 at 21h 49m 00s.xml">
-      <configuration name="TesteDivisao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDivisao - 2016.12.01 at 21h 52m 34s.xml">
-      <configuration name="TesteDivisao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDivisao - 2016.12.01 at 21h 53m 16s.xml">
-      <configuration name="TesteDivisao" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TesteDivisao - 2016.12.01 at 21h 54m 41s.xml">
-      <configuration name="TesteDivisao" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TesteDivisao - 2016.12.01 at 21h 56m 52s.xml">
       <configuration name="TesteDivisao" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TesteDivisao - 2016.12.01 at 22h 00m 19s.xml">
       <configuration name="TesteDivisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDivisao - 2016.12.01 at 22h 27m 21s.xml">
+      <configuration name="TesteDivisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDivisao - 2016.12.01 at 22h 33m 49s.xml">
+      <configuration name="TesteDivisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDivisao - 2016.12.01 at 22h 37m 24s.xml">
+      <configuration name="TesteDivisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteDivisao - 2016.12.01 at 22h 38m 08s.xml">
+      <configuration name="TesteDivisao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteExpressaoSubtracao - 2016.12.01 at 23h 04m 47s.xml">
+      <configuration name="TesteExpressaoSubtracao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TesteIgual - 2016.12.01 at 22h 43m 35s.xml">
+      <configuration name="TesteIgual" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TesteMaiorQue - 2016.12.01 at 22h 05m 16s.xml">
       <configuration name="TesteMaiorQue" configurationId="JUnit" />
@@ -842,37 +815,37 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16430000" />
+    <option name="totallyTimeSpent" value="19286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48808607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31390134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24365872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -897,6 +870,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoUnaria.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -908,38 +899,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoBinaria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteNot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteNot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteNot.java" />
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteNot" />
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Not.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -956,22 +917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSoma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/cic/poo/mh/MaiorOuIgual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/cic/poo/mh/MaiorOuIgual.java" />
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/TamanhoDasExpressoes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1004,16 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/DeclaracaoFuncao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1030,22 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/And.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1054,14 +974,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/poo/mh/TesteIfThenElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/poo/mh/TesteIfThenElse.java" />
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/IfThenElse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1070,26 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Igual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1113,29 +1010,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoOr.java">
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/MenorOuIgual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="33" column="0" selection-start-line="11" selection-start-column="4" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoNot.java">
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoBinaria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSoma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="234">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1145,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAplicacaoFuncao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="60">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1155,26 +1064,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/MenorOuIgual.java">
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoOr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="33" column="0" selection-start-line="11" selection-start-column="4" selection-end-line="33" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoNot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="60">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1183,7 +1114,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteMaiorQue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="189">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1193,29 +1124,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="5" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java">
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="89">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
