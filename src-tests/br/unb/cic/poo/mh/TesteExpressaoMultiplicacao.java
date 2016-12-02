@@ -6,7 +6,6 @@ import org.junit.Test;
 import br.unb.poo.mh.Expressao;
 import br.unb.poo.mh.ExpressaoSoma;
 import br.unb.poo.mh.Multiplicacao;
-import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.ValorInteiro;
 
 public class TesteExpressaoMultiplicacao {
