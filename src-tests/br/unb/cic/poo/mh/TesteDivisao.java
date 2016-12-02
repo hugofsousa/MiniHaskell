@@ -1,6 +1,8 @@
 package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.Divisao;
+import br.unb.poo.mh.TamanhoDasExpressoes;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorInteiro;
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,6 +16,12 @@ public class TesteDivisao {
         ValorInteiro v5 = new ValorInteiro(5);
         Divisao div = new Divisao(v10, v5);
         Assert.assertEquals(new ValorInteiro(2), div.avaliar());
+        
+        Assert.assertEquals(div.tipo(), Tipo.Inteiro);
+        
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        div.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 
     @Test

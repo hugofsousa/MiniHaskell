@@ -1,6 +1,8 @@
 package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.Or;
+import br.unb.poo.mh.TamanhoDasExpressoes;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,6 +28,12 @@ public class TesteExpressaoOr {
         Assert.assertEquals(new Boolean(false), res2.getValor());
         Assert.assertEquals(new Boolean(true), res3.getValor());
         Assert.assertEquals(new Boolean(true), res4.getValor());
+        
+        Assert.assertEquals(and1.tipo(), Tipo.Booleano);
+        
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        and1.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 
     @Test
@@ -37,6 +45,8 @@ public class TesteExpressaoOr {
         Or and2 = new Or(verdadeiro,verdadeiro);
         Or and3 = new Or(and1, verdadeiro);
         Or and4 = new Or(and2, verdadeiro);
+        
+        Assert.assertEquals(and1.tipo(), Tipo.Booleano);
 
         ValorBooleano res1 = (ValorBooleano)and3.avaliar();
         ValorBooleano res2 = (ValorBooleano)and4.avaliar();

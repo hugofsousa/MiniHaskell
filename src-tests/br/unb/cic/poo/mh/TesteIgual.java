@@ -1,6 +1,7 @@
 package br.unb.cic.poo.mh;
 
 import br.unb.poo.mh.Igual;
+import br.unb.poo.mh.Tipo;
 import br.unb.poo.mh.ValorBooleano;
 import br.unb.poo.mh.ValorInteiro;
 import org.junit.Assert;
@@ -22,6 +23,7 @@ public class TesteIgual {
 
         Assert.assertEquals(false, res1.getValor());
         Assert.assertEquals(true, res2.getValor());
+        Assert.assertEquals(diferente.tipo(), Tipo.Inteiro);
     }
 
 }
