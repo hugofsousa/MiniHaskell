@@ -1,6 +1,6 @@
 package br.unb.poo.mh;
 
-public class MaiorQue extends ExpressaoBinaria {
+public class MaiorQue extends ExpressaoBinariaBool {
 	/**
 	 * 
 	 * @param expDireita -> MAIOR

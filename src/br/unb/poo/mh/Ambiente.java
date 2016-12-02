@@ -136,7 +136,7 @@ public class Ambiente {
 	/**
 	 * Associa um identificador a uma expressao 
 	 * na tabela que esta no topo da pilha. 
-	 * 
+	 *
 	 * @param id identificador da variavel ou argumento
 	 * @param exp expressao associada ao identificador
 	 */

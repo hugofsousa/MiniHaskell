@@ -1,7 +1,7 @@
 package br.unb.poo.mh;
 
 
-public class MenorQue extends ExpressaoBinaria {
+public class MenorQue extends ExpressaoBinariaBool {
     public MenorQue(Expressao expDireita, Expressao expEsquerda) {
         super(expDireita, expEsquerda);
     }

@@ -21,7 +21,19 @@ public class IfThenElse implements Expressao {
 
 	@Override
 	public Tipo tipo() {
+		Tipo cond = condicao.tipo();
+
+		if(cond.equals(Tipo.Booleano)) {
+			if(clausulaThen.tipo().equals(clausulaElse.tipo())) {
+				return clausulaThen.tipo();
+			}
+		}
 		return Tipo.Error;
+	}
+
+	@Override
+	public boolean checarTipo() {
+		return !tipo().equals(Tipo.Error);
 	}
 
 	@Override

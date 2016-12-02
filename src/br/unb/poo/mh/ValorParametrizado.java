@@ -7,6 +7,16 @@ public abstract class ValorParametrizado<T> extends Valor {
 	public ValorParametrizado(T valor) {
 		this.valor = valor;
 	}
+
+	@Override
+	public Valor avaliar() {
+		return this;
+	}
+
+	@Override
+	public boolean checarTipo() {
+		return true;
+	}
 	
 	public T getValor() {
 		return valor;

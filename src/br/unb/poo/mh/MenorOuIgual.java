@@ -7,7 +7,7 @@ import br.unb.poo.mh.*;
  * @author Hugo & Eduardo
  *
  */
-public class MenorOuIgual extends ExpressaoBinaria {
+public class MenorOuIgual extends ExpressaoBinariaBool {
 
 	public MenorOuIgual(Expressao expDireita, Expressao expEsquerda) {
 		super(expDireita, expEsquerda);

@@ -5,7 +5,7 @@ package br.unb.poo.mh;
  * @author Hugo & Eduardo
  *
  */
-public class Or extends ExpressaoBinaria {
+public class Or extends ExpressaoBinariaBool {
 	public Or(Expressao expDireita, Expressao expEsquerda){
 		super(expDireita, expEsquerda);
 	}

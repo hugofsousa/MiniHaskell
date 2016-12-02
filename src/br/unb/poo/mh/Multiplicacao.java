@@ -1,6 +1,6 @@
 package br.unb.poo.mh;
 
-public class Multiplicacao extends ExpressaoBinaria {
+public class Multiplicacao extends ExpressaoBinariaInt {
 
 	public Multiplicacao(Expressao expDireita, Expressao expEsquerda) {
 		super(expDireita, expEsquerda);

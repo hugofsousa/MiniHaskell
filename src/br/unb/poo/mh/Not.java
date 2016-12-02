@@ -15,6 +15,11 @@ public class Not extends ExpressaoUnaria {
     }
 
     @Override
+    public boolean checarTipo() {
+        return tipo().equals(Tipo.Booleano);
+    }
+
+    @Override
     public Tipo tipo() {
         return (exp.tipo() == Tipo.Booleano) ? Tipo.Booleano : Tipo.Error;
     }

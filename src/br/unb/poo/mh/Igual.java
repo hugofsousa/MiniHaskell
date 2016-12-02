@@ -5,7 +5,7 @@ package br.unb.poo.mh;
  * @author Hugo & Eduardo
  *
  */
-public class Igual extends ExpressaoBinaria {
+public class Igual extends ExpressaoBinariaBool {
 	
 	public Igual(Expressao expDireita, Expressao expEsquerda) {
 		super(expDireita, expEsquerda);

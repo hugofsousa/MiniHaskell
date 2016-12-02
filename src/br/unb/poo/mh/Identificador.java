@@ -6,15 +6,32 @@ public class Identificador implements Expressao {
 	public Identificador(String id) {
 		this.id = id;
 	}
-	
-	public Valor avaliar() {
-		Expressao exp = Ambiente.instance().getExpressao(id);
-		return exp.avaliar();
-	}
 
 	@Override
 	public Tipo tipo() {
-		return Tipo.Error;
+		Expressao exp = Ambiente.instance().getExpressao(id);
+		if(exp != null) {
+			return exp.tipo();
+		}
+		throw new RuntimeException("Variaval: " + id + " nao declarada");
+	}
+
+	@Override
+	public boolean checarTipo() {
+		Expressao exp = Ambiente.instance().getExpressao(id);
+		if(exp != null) {
+			return exp.checarTipo();
+		}
+		throw new RuntimeException("Variaval: " + id + " nao declarada");
+	}
+
+	@Override
+	public Valor avaliar() {
+		Expressao exp = Ambiente.instance().getExpressao(id);
+		if(exp != null) {
+			return exp.avaliar();
+		}
+		throw new RuntimeException("Variaval: " + id + " nao declarada");
 	}
 
 	@Override

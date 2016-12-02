@@ -20,6 +20,11 @@ public class ExpressaoSoma extends ExpressaoBinaria {
 	}
 
 	@Override
+	public boolean checarTipo() {
+		return tipo().equals(Tipo.Inteiro);
+	}
+
+	@Override
 	public void aceitar(Visitor v) {
 		v.visitar(this);
 	}

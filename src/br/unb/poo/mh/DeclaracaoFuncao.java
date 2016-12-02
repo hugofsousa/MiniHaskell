@@ -12,10 +12,10 @@ public class DeclaracaoFuncao {
 	 * deve checar se os argumentos atuais (que sao expressoes) 
 	 * sao bem tipados em relacao aos argumentos formais. 
 	 */
-	private List<String> args;
+	private List<ArgumentoFormal> args;
 	private Expressao corpo;
 	
-	public DeclaracaoFuncao(String nome, List<String> args, Expressao corpo) {
+	public DeclaracaoFuncao(String nome, List<ArgumentoFormal> args, Expressao corpo) {
 		this.nome = nome;
 		this.args = args;
 		this.corpo = corpo;
@@ -29,19 +29,12 @@ public class DeclaracaoFuncao {
 		this.nome = nome;
 	}
 
-	public List<String> getArgs() {
+	public List<ArgumentoFormal> getArgs() {
 		return args;
-	}
-
-	public void setArgs(List<String> args) {
-		this.args = args;
 	}
 
 	public Expressao getCorpo() {
 		return corpo;
 	}
 
-	public void setCorpo(Expressao corpo) {
-		this.corpo = corpo;
-	}
 }

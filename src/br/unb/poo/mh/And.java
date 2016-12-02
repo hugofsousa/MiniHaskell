@@ -5,7 +5,7 @@ package br.unb.poo.mh;
  * @author Hugo & Eduardo
  *
  */
-public class And extends ExpressaoBinaria {
+public class And extends ExpressaoBinariaBool {
 	
 	public And(Expressao expDireita, Expressao expEsquerda){
 		super(expDireita, expEsquerda);

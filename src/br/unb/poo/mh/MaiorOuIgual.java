@@ -5,7 +5,7 @@ package br.unb.poo.mh;
  * @author Hugo & Eduardo
  *
  */
-public class MaiorOuIgual extends ExpressaoBinaria {
+public class MaiorOuIgual extends ExpressaoBinariaBool {
 
 	public MaiorOuIgual(Expressao expDireita, Expressao expEsquerda) {
 		super(expDireita, expEsquerda);
