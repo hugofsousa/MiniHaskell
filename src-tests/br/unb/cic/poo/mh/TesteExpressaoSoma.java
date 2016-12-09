@@ -23,9 +23,9 @@ public class TesteExpressaoSoma {
 		Assert.assertEquals(v15, soma.avaliar());
 		Assert.assertEquals(v15.tipo(), Tipo.Inteiro);
 		
-		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-        v15.aceitar(tde);
-        Assert.assertEquals(tde.getTamanho(), 3);
+//		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+//        v15.aceitar(tde);
+//        Assert.assertEquals(tde.getTamanho(), 3);
 	}
 	
 	@Test
