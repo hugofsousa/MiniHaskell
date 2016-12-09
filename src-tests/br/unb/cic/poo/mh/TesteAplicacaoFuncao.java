@@ -29,6 +29,7 @@ public class TesteAplicacaoFuncao {
 		Assert.assertEquals(new Integer(8), resultado.getValor());
 	}
 
+	@Test
 	public void testAplicacaoComplexa(){
 		List<ArgumentoFormal> argumentos = new ArrayList<ArgumentoFormal>();
 		ArgumentoFormal arg1 = new ArgumentoFormal("X", Tipo.Inteiro);

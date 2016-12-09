@@ -117,5 +117,12 @@ public class PrettyPrinter implements Visitor{
 	public void visitar(Not exp) {
 		visitarEU(exp);
 	}
+	
+	@Override
+	public void visitar(ListaComValor exp) {
+		exp.cabeca.aceitar(this);
+		System.out.print(", ");
+		exp.calda.aceitar(this);
+	}
 
 }

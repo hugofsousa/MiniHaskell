@@ -110,5 +110,10 @@ public class TamanhoDasExpressoes implements Visitor {
 	public void visitar(Not exp) {
 		visitarEU(exp);
 	}
+	
+	@Override
+	public void visitar(ListaComValor exp) {
+//		TODO
+	}
 
 }

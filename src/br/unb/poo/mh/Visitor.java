@@ -26,4 +26,5 @@ public interface Visitor {
 	public abstract void visitar(MenorOuIgual exp);
 	public abstract void visitar(MaiorOuIgual exp);
 	public abstract void visitar(Not exp);
+	public abstract void visitar(ListaComValor exp);
 }
