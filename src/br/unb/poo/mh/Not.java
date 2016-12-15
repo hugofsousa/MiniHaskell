@@ -1,9 +1,5 @@
 package br.unb.poo.mh;
 
-/**
- * Created by Hugo & Eduardo on 01/12/16.
- */
-
 public class Not extends ExpressaoUnaria {
     public Not(Expressao exp){super(exp);}
 
@@ -28,4 +24,5 @@ public class Not extends ExpressaoUnaria {
     public void aceitar(Visitor v) {
         v.visitar(this);
     }
+
 }

@@ -24,10 +24,10 @@ public class TesteExpressaoOr {
         ValorBooleano res3 = (ValorBooleano)and3.avaliar();
         ValorBooleano res4 = (ValorBooleano)and4.avaliar();
 
-        Assert.assertEquals(new Boolean(true), res1.getValor());
-        Assert.assertEquals(new Boolean(false), res2.getValor());
-        Assert.assertEquals(new Boolean(true), res3.getValor());
-        Assert.assertEquals(new Boolean(true), res4.getValor());
+        Assert.assertEquals(Boolean.TRUE, res1.getValor());
+        Assert.assertEquals(Boolean.FALSE, res2.getValor());
+        Assert.assertEquals(Boolean.TRUE, res3.getValor());
+        Assert.assertEquals(Boolean.TRUE, res4.getValor());
         
         Assert.assertEquals(and1.tipo(), Tipo.Booleano);
         
@@ -51,8 +51,8 @@ public class TesteExpressaoOr {
         ValorBooleano res1 = (ValorBooleano)and3.avaliar();
         ValorBooleano res2 = (ValorBooleano)and4.avaliar();
 
-        Assert.assertEquals(new Boolean(true), res1.getValor());
-        Assert.assertEquals(new Boolean(true), res2.getValor());
+        Assert.assertEquals(Boolean.TRUE, res1.getValor());
+        Assert.assertEquals(Boolean.TRUE, res2.getValor());
     }
 
 }

@@ -3,21 +3,21 @@ package br.unb.poo.mh;
 /**
  * @author Hugo & Eduardo
  */
-public class Divisao extends ExpressaoBinariaInt {
-	
-	public Divisao(Expressao expEsquerda, Expressao expDireita) {
-		super(expDireita, expEsquerda);
+public class ExpressaoDivisao extends ExpressaoBinariaInt {
+
+	public ExpressaoDivisao(Expressao expEsquerda, Expressao expDireita){
+		super(expEsquerda, expDireita);
 	}
-	
+
 	@Override
 	public Valor avaliar() {
 		ValorInteiro ve = (ValorInteiro)expEsquerda.avaliar();
 		ValorInteiro vd = (ValorInteiro)expDireita.avaliar();
-		
-		if(ve.getValor() == 0){
-			return new ValorInteiro(0);
-		}
-		
+
+//		if(ve.getValor() == 0){
+//			return new ValorInteiro(0);
+//		}
+
 		return new ValorInteiro(ve.getValor() / vd.getValor());
 	}
 
@@ -29,6 +29,10 @@ public class Divisao extends ExpressaoBinariaInt {
 	@Override
 	public void aceitar(Visitor v) {
 		v.visitar(this);
+	}
+
+	public boolean checarTipo() {
+		return tipo().equals(Tipo.Inteiro);
 	}
 
 }

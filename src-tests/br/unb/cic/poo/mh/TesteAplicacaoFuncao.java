@@ -5,7 +5,6 @@ import java.util.List;
 
 import br.unb.poo.mh.*;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class TesteAplicacaoFuncao {
@@ -16,7 +15,7 @@ public class TesteAplicacaoFuncao {
 		ArgumentoFormal arg1 = new ArgumentoFormal("X", Tipo.Inteiro);
 		argumentos.add(arg1);
 
-		DeclaracaoFuncao funcao = new DeclaracaoFuncao("dobra", argumentos, new Multiplicacao(new Identificador("X"), new ValorInteiro(2)));
+		DeclaracaoFuncao funcao = new DeclaracaoFuncao("dobra", argumentos, new ExpressaoMultiplicacao(new Identificador("X"), new ValorInteiro(2)));
 		Ambiente.instance().declaraFuncao(funcao);
 
 		List<Expressao> valoresArgumentos = new ArrayList<Expressao>();
@@ -37,7 +36,7 @@ public class TesteAplicacaoFuncao {
 
 		Expressao condicao = new MenorOuIgual(new Identificador("X"), new ValorInteiro(2));
 		Expressao then = new Identificador("X");
-		Expressao clausulaElse = new Multiplicacao(new Identificador("X"), new ValorInteiro(2));
+		Expressao clausulaElse = new ExpressaoMultiplicacao(new Identificador("X"), new ValorInteiro(2));
 
 		DeclaracaoFuncao funcao = new DeclaracaoFuncao("MultiplicaAcimaDeDois", argumentos,
 				new IfThenElse(condicao, then, clausulaElse));

@@ -17,15 +17,14 @@ public class TesteExpressaoSoma {
 	private Expressao soma = new ExpressaoSoma(v5, v10);
 	
 	@Test
-
 	public void testeSomaSimples() {
 		ValorInteiro v15 = new ValorInteiro(15);
 		Assert.assertEquals(v15, soma.avaliar());
 		Assert.assertEquals(v15.tipo(), Tipo.Inteiro);
 		
-//		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-//        v15.aceitar(tde);
-//        Assert.assertEquals(tde.getTamanho(), 3);
+		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        soma.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
 	}
 	
 	@Test

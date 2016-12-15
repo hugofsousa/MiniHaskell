@@ -3,29 +3,34 @@ package br.unb.poo.mh;
 public class TamanhoDasExpressoes implements Visitor {
 
 	private int tamanho = 0;
+
 	public int getTamanho() {
 		return tamanho;
 	}
 	
 	public void visitarEB(ExpressaoBinaria exp){
 		exp.expEsquerda.aceitar(this);
-		 exp.expDireita.aceitar(this);
-		 tamanho += 1;
+		exp.expDireita.aceitar(this);
+		tamanho ++;
 	}
 
 	public void visitarEU(ExpressaoUnaria exp){
+		tamanho ++;
 		exp.exp.aceitar(this);
-		tamanho += 1;
+	}
+
+	public void zera_cont(){
+		tamanho = 0;
 	}
 
 	@Override
 	public void visitar(ValorInteiro exp) {
-		tamanho += 1;
+		tamanho ++;
 	}
 
 	@Override
 	public void visitar(ValorBooleano exp) {
-		tamanho += 1;
+		tamanho ++;
 	}
 
 	@Override
@@ -34,7 +39,7 @@ public class TamanhoDasExpressoes implements Visitor {
 	}
 
 	@Override
-	public void visitar(Multiplicacao exp) {
+	public void visitar(ExpressaoMultiplicacao exp) {
 		visitarEB(exp);	
 	}
 
@@ -48,9 +53,11 @@ public class TamanhoDasExpressoes implements Visitor {
 
 	@Override
 	public void visitar(AplicacaoFuncao exp) {
-		exp.parametros.stream().forEach(p -> { p.aceitar(this); });
 		tamanho += 1;
-		
+		exp.parametros.forEach(p -> {
+			p.aceitar(this);
+		});
+
 //		for(Expressao p: exp.parametros) {
 //			p.aceitar(this);
 //		}
@@ -58,11 +65,11 @@ public class TamanhoDasExpressoes implements Visitor {
 
 	@Override
 	public void visitar(Identificador exp) {
-		tamanho += 1;
+		tamanho ++;
 	}
 
 	@Override
-	public void visitar(Divisao exp) {
+	public void visitar(ExpressaoDivisao exp) {
 		visitarEB(exp);	
 	}
 
@@ -107,6 +114,11 @@ public class TamanhoDasExpressoes implements Visitor {
 	}
 
 	@Override
+	public void visitar(Diferente exp) {
+		visitarEB(exp);
+	}
+
+	@Override
 	public void visitar(Not exp) {
 		visitarEU(exp);
 	}
@@ -115,5 +127,4 @@ public class TamanhoDasExpressoes implements Visitor {
 	public void visitar(ListaComValor exp) {
 //		TODO
 	}
-
 }

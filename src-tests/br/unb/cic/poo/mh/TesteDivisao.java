@@ -1,20 +1,19 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.Divisao;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorInteiro;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
 
 public class TesteDivisao {
 
+    ValorInteiro v5 = new ValorInteiro(5);
+    ValorInteiro v10 = new ValorInteiro(10);
+    ValorInteiro v100 = new ValorInteiro(100);
+
     @Test
     public void TesteDivisaoUm() {
-        ValorInteiro v10 = new ValorInteiro(10);
-        ValorInteiro v5 = new ValorInteiro(5);
-        Divisao div = new Divisao(v10, v5);
+        ExpressaoDivisao div = new ExpressaoDivisao(v10, v5);
         Assert.assertEquals(new ValorInteiro(2), div.avaliar());
         
         Assert.assertEquals(div.tipo(), Tipo.Inteiro);
@@ -26,18 +25,12 @@ public class TesteDivisao {
 
     @Test
     public void TesteDivisaoDois() {
-        ValorInteiro v100  = new ValorInteiro(100);
-        ValorInteiro v10 = new ValorInteiro(10);
-        ValorInteiro v5  = new ValorInteiro(5);
+        ExpressaoDivisao expressaoDivisao1 = new ExpressaoDivisao(v100, v10);
+        ExpressaoDivisao expressaoDivisao2 = new ExpressaoDivisao(expressaoDivisao1, v5);
 
-        Divisao divisao1 = new Divisao(v100, v10);
-        Divisao divisao2 = new Divisao(divisao1, v5);
-
-        ValorInteiro res = (ValorInteiro)divisao2.avaliar();
+        ValorInteiro res = (ValorInteiro) expressaoDivisao2.avaliar();
 
         Assert.assertEquals(new Integer(2), res.getValor());
     }
-
-
 
 }

@@ -23,9 +23,9 @@ public class TesteExpressaoSubtracao {
 
         Assert.assertEquals(new Integer(10), res.getValor());
         
-//        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-//        v20.aceitar(tde);
-//        Assert.assertEquals(tde.getTamanho(), 3);
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        subtracao.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 
     @Test

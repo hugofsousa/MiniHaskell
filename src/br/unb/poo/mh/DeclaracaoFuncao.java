@@ -1,5 +1,6 @@
 package br.unb.poo.mh;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DeclaracaoFuncao {
@@ -14,7 +15,11 @@ public class DeclaracaoFuncao {
 	 */
 	private List<ArgumentoFormal> args;
 	private Expressao corpo;
-	
+
+	public DeclaracaoFuncao(){
+		args = new ArrayList<ArgumentoFormal>();
+	}
+
 	public DeclaracaoFuncao(String nome, List<ArgumentoFormal> args, Expressao corpo) {
 		this.nome = nome;
 		this.args = args;
@@ -33,8 +38,19 @@ public class DeclaracaoFuncao {
 		return args;
 	}
 
+	public void setArgs(List<ArgumentoFormal> args) {
+		this.args = args;
+	}
+
+	public void setArg(ArgumentoFormal arg){
+		this.args.add(arg);
+	}
+
 	public Expressao getCorpo() {
 		return corpo;
 	}
 
+	public void setCorpo(Expressao corpo) {
+		this.corpo = corpo;
+	}
 }

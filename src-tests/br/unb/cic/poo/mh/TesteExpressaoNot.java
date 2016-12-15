@@ -22,8 +22,8 @@ public class TesteExpressaoNot {
         ValorBooleano res1 = (ValorBooleano)not1.avaliar();
         ValorBooleano res2 = (ValorBooleano)not2.avaliar();
 
-        Assert.assertEquals(new Boolean(false), res1.getValor());
-        Assert.assertEquals(new Boolean(true), res2.getValor());
+        Assert.assertEquals(Boolean.FALSE, res1.getValor());
+        Assert.assertEquals(Boolean.TRUE, res2.getValor());
         Assert.assertEquals(not1.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();

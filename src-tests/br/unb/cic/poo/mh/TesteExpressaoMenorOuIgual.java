@@ -20,7 +20,7 @@ public class TesteExpressaoMenorOuIgual {
         ValorBooleano res = (ValorBooleano)menor.avaliar();
 
         Assert.assertEquals(true, res.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         menor.aceitar(tde);
@@ -36,6 +36,6 @@ public class TesteExpressaoMenorOuIgual {
         ValorBooleano res = (ValorBooleano)menor.avaliar();
 
         Assert.assertEquals(true, res.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
     }
 }

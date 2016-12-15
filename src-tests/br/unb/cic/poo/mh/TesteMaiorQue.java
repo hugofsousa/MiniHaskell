@@ -23,7 +23,7 @@ public class TesteMaiorQue {
 
         Assert.assertEquals(true, res.getValor());
         Assert.assertEquals(false, res2.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         menor.aceitar(tde);

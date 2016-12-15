@@ -5,17 +5,17 @@ package br.unb.poo.mh;
  * @author Hugo & Eduardo
  *
  */
-public class Or extends ExpressaoBinariaBool {
-	public Or(Expressao expDireita, Expressao expEsquerda){
-		super(expDireita, expEsquerda);
+public class Or extends ExpressaoBinaria {
+	public Or(Expressao expEsquerda, Expressao expDireita){
+		super(expEsquerda, expDireita);
 	}
 
 	@Override
 	public Valor avaliar() {
-		ValorBooleano valorEsquerda = (ValorBooleano) expEsquerda.avaliar();
-		ValorBooleano valorDireita = (ValorBooleano) expDireita.avaliar();
+		ValorBooleano ve = (ValorBooleano) expEsquerda.avaliar();
+		ValorBooleano vd = (ValorBooleano) expDireita.avaliar();
 		
-		return new ValorBooleano(valorEsquerda.getValor() || valorDireita.getValor());
+		return new ValorBooleano(ve.getValor() || vd.getValor());
 	}
 
 	@Override
@@ -26,5 +26,9 @@ public class Or extends ExpressaoBinariaBool {
 	@Override
 	public void aceitar(Visitor v) {
 		v.visitar(this);
+	}
+
+	public boolean checarTipo() {
+		return tipo().equals(Tipo.Booleano);
 	}
 }

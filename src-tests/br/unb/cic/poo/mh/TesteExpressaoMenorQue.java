@@ -22,7 +22,7 @@ public class TesteExpressaoMenorQue {
         ValorBooleano res = (ValorBooleano)menor.avaliar();
 
         Assert.assertEquals(false, res.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Inteiro);
+        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         menor.aceitar(tde);

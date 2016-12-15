@@ -6,10 +6,19 @@ import java.util.List;
 public class ListaComValor extends Lista {
 	ValorParametrizado<?> cabeca;
 	Lista calda;
-	
+
+	public ValorParametrizado<?> getCabeca() {
+		return cabeca;
+	}
+
+	public Lista getCalda() {
+		return calda;
+	}
+
 	public ListaComValor(ValorParametrizado<?> cabeca, Lista calda){
 		this.cabeca = cabeca;
 		this.calda = calda;
+
 	}
 	
 	@Override

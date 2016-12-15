@@ -1,13 +1,8 @@
 package br.unb.poo.mh;
 
-/**
- * 
- * @author Hugo & Eduardo
- *
- */
-public class ExpressaoSubtracao extends ExpressaoBinaria {
-	
-	public ExpressaoSubtracao(Expressao expEsquerda, Expressao expDireita){
+public class ExpressaoMultiplicacao extends ExpressaoBinaria {
+
+	public ExpressaoMultiplicacao(Expressao expEsquerda, Expressao expDireita){
 		super(expEsquerda, expDireita);
 	}
 
@@ -15,8 +10,8 @@ public class ExpressaoSubtracao extends ExpressaoBinaria {
 	public Valor avaliar() {
 		ValorInteiro ve = (ValorInteiro)expEsquerda.avaliar();
 		ValorInteiro vd = (ValorInteiro)expDireita.avaliar();
-		
-		return new ValorInteiro(ve.getValor() - vd.getValor());
+
+		return new ValorInteiro(ve.getValor() * vd.getValor());
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class IfThenElse implements Expressao {
 		if(valor.getValor()) {
 			return clausulaThen.avaliar();
 		}
-		return 			clausulaElse.avaliar();
+		return 	clausulaElse.avaliar();
 	}
 
 	@Override
