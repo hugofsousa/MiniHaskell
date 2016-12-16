@@ -6,82 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ad05a7-738b-42af-9e0b-d757bf681629" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Arquivo Comprimido.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Divisao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Multiplicacao.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Divisao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoDivisao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Multiplicacao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoMultiplicacao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteAnd.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteAnd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteAplicacaoFuncao.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteAplicacaoFuncao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteDivisao.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteDivisao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMenorQue.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMenorQue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoNot.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoNot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoOr.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoOr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoSoma.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoSoma.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoSubtracao.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteExpressaoSubtracao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteIfThenElse.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteIfThenElse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteIgual.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteIgual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteMaiorQue.class" afterPath="$PROJECT_DIR$/bin/br/unb/cic/poo/mh/TesteMaiorQue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/And.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/And.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/AplicacaoFuncao.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/AplicacaoFuncao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/DeclaracaoFuncao.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/DeclaracaoFuncao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinaria.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinaria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinariaBool.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinariaBool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinariaInt.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoBinariaInt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoSoma.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoSoma.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoSubtracao.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoSubtracao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoUnaria.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ExpressaoUnaria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Identificador.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Identificador.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Igual.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Igual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/ListaComValor.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/ListaComValor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/MaiorOuIgual.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/MaiorOuIgual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/MaiorQue.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/MaiorQue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/MenorOuIgual.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/MenorOuIgual.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/MenorQue.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/MenorQue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Not.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Not.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Or.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Or.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/PrettyPrinter.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/PrettyPrinter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/TamanhoDasExpressoes.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/TamanhoDasExpressoes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Tipo.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Tipo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/unb/poo/mh/Visitor.class" afterPath="$PROJECT_DIR$/bin/br/unb/poo/mh/Visitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Interpretador.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAnd.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAnd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAplicacaoFuncao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteAplicacaoFuncao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteDivisao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMaiorOuIgual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorOuIgual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMenorQue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoMultiplicacao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoNot.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoNot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoOr.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoOr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSoma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoSubtracao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIfThenElse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteIgual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteMaiorQue.java" afterPath="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteMaiorQue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/And.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/And.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/AplicacaoFuncao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/AplicacaoFuncao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/DeclaracaoFuncao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/DeclaracaoFuncao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoBinaria.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoBinaria.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSoma.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSoma.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Identificador.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Identificador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/IfThenElse.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/IfThenElse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Igual.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Igual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/ListaComValor.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/ListaComValor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/MaiorOuIgual.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/MaiorOuIgual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/MaiorQue.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/MaiorQue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/MenorOuIgual.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/MenorOuIgual.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/MenorQue.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/MenorQue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Not.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Not.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Or.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Or.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/PrettyPrinter.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/PrettyPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/TamanhoDasExpressoes.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/TamanhoDasExpressoes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Tipo.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Tipo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/unb/poo/mh/Visitor.java" afterPath="$PROJECT_DIR$/src/br/unb/poo/mh/Visitor.java" />
     </list>
     <ignored path="MiniHaskell.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,13 +28,51 @@
     <favorites_list name="MiniHaskell" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interpretador.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Interpretador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2630#2631#0" expanded="true" />
+                <element signature="e#2704#2705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -123,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/unb/cic/poo/mh/MaiorOuIgual.java" />
-        <option value="$PROJECT_DIR$/src/br/unb/cic/poo/mh/Visitor.java" />
-        <option value="$PROJECT_DIR$/src-tests/br/unb/poo/mh/TesteIfThenElse.java" />
-        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/ArgumentoFormal.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoBinariaInt.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Expressao.java" />
         <option value="$PROJECT_DIR$/src/br/unb/poo/mh/ValorParametrizado.java" />
@@ -174,6 +134,10 @@
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteExpressaoDiferente.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/testePrettyPrinter.java" />
         <option value="$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/TesteRefactoring.java" />
+        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Token.java" />
+        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Parser.java" />
+        <option value="$PROJECT_DIR$/src/br/unb/poo/mh/Interpretador.java" />
       </list>
     </option>
   </component>
@@ -214,8 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,24 +207,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src-tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniHaskell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MiniHaskell" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,7 +217,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,33 +246,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TesteRefactoring">
-    <configuration default="false" name="TesteExpressaoOr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="br.unb.cic.poo.mh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MiniHaskell" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.unb.cic.poo.mh" />
-      <option name="MAIN_CLASS_NAME" value="br.unb.cic.poo.mh.TesteExpressaoOr" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="TesteExpressaoNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,6 +349,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="br.unb.poo.mh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="br.unb.poo.mh.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="MiniHaskell" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -862,19 +802,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TesteExpressaoOr" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TesteExpressaoNot" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TesteExpressaoDiferente" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TesteRefactoring" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TesteExpressaoNot" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TesteExpressaoDiferente" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TesteRefactoring" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TesteRefactoring" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TesteExpressaoDiferente" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TesteExpressaoNot" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TesteExpressaoOr" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TesteRefactoring" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TesteExpressaoDiferente" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TesteMaiorQue" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TesteExpressaoNot" />
       </list>
     </recent_temporary>
   </component>
@@ -894,6 +834,9 @@
       <workItem from="1481334663646" duration="79000" />
       <workItem from="1481334788960" duration="107000" />
       <workItem from="1481746994418" duration="22541000" />
+      <workItem from="1481845113583" duration="5906000" />
+      <workItem from="1481858271990" duration="1256000" />
+      <workItem from="1481891999979" duration="4169000" />
     </task>
     <servers />
   </component>
@@ -930,7 +873,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51567000" />
+    <option name="totallyTimeSpent" value="62898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -948,14 +891,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20292082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20292082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32735425" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -985,38 +928,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/MenorOuIgual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/MaiorQue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/MaiorOuIgual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Igual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSubtracao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1054,10 +965,10 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#373#374#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#577#578#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1067,8 +978,8 @@
         <state relative-caret-position="60">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1077,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,24 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,23 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1674#1675#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1906#1907#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#1997#1998#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1134,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
           <caret line="91" column="14" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,12 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="128" column="5" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1874#1875#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,7 +1044,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,18 +1075,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Refactoring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Refactoring.java" />
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/ExpressaoSoma.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1236,7 +1092,7 @@
         <state relative-caret-position="380">
           <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
-            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1245,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,9 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,7 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,7 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1335,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,7 +1187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,7 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,9 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,11 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1405,9 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1415,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="37" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,23 +1250,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
           <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/testePrettyPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src-tests/br/unb/cic/poo/mh/testePrettyPrinter.java" />
     <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/PrettyPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,9 +1265,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Token.java" />
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Interpretador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2630#2631#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/unb/poo/mh/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
