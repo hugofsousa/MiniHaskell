@@ -1,10 +1,6 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.MaiorQue;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorBooleano;
-import br.unb.poo.mh.ValorInteiro;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -15,18 +11,21 @@ public class TesteMaiorQue {
         ValorInteiro int90 = new ValorInteiro(90);
         ValorInteiro int190 = new ValorInteiro(190);
 
-        MaiorQue menor = new MaiorQue(int100, int90);
+        MaiorQue maior1 = new MaiorQue(int100, int90);
         MaiorQue maior = new MaiorQue(int100, int190);
 
-        ValorBooleano res = (ValorBooleano)menor.avaliar();
+        ValorBooleano res = (ValorBooleano)maior1.avaliar();
         ValorBooleano res2 = (ValorBooleano)maior.avaliar();
 
         Assert.assertEquals(true, res.getValor());
         Assert.assertEquals(false, res2.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
+        Assert.assertEquals(maior1.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-        menor.aceitar(tde);
+        maior1.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(maior1);
     }
 }

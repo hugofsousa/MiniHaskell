@@ -1,12 +1,7 @@
 package br.unb.cic.poo.mh;
 
 
-import br.unb.poo.mh.And;
-import br.unb.poo.mh.Or;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorBooleano;
-import br.unb.poo.mh.Not;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -29,6 +24,9 @@ public class TesteExpressaoNot {
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         not1.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 2);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(not1);
     }
 
 

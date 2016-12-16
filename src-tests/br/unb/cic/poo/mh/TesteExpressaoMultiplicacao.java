@@ -10,7 +10,7 @@ public class TesteExpressaoMultiplicacao {
 	public void testeExpressaoOk() {
 		ValorInteiro v10 = new ValorInteiro(10);
 		ValorInteiro v5 = new ValorInteiro(5);
-		Expressao m = new ExpressaoMultiplicacao(v10, new ExpressaoSoma(v10, v5));
+		ExpressaoMultiplicacao m = new ExpressaoMultiplicacao(v10, new ExpressaoSoma(v10, v5));
 
 		Assert.assertEquals(new ValorInteiro(150), m.avaliar());
 		Assert.assertEquals(m.tipo(), Tipo.Inteiro);
@@ -19,6 +19,9 @@ public class TesteExpressaoMultiplicacao {
 		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         tam.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+		PrettyPrinter pp = new PrettyPrinter();
+		pp.visitar(m);
 	}
 
 }

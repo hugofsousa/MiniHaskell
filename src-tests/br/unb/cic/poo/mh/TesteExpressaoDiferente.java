@@ -35,6 +35,10 @@ public class TesteExpressaoDiferente {
 
         Assert.assertEquals(new ValorBooleano(true), igual1.avaliar());
         Assert.assertEquals(new ValorBooleano(false), igual2.avaliar());
+
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        igual1.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 
 }

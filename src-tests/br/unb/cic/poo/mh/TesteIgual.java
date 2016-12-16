@@ -21,6 +21,9 @@ public class TesteIgual {
         Assert.assertEquals(false, res1.getValor());
         Assert.assertEquals(true, res2.getValor());
         Assert.assertEquals(diferente.tipo(), Tipo.Booleano);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(igual);
     }
 
     @Test
@@ -35,6 +38,10 @@ public class TesteIgual {
 
         Assert.assertEquals(new ValorBooleano(false), igual1.avaliar());
         Assert.assertEquals(new ValorBooleano(true), igual2.avaliar());
+
+        TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
+        igual1.aceitar(tde);
+        Assert.assertEquals(tde.getTamanho(), 3);
     }
 
 }

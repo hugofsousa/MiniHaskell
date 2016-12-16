@@ -21,6 +21,9 @@ public class TesteDivisao {
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         div.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(div);
     }
 
     @Test

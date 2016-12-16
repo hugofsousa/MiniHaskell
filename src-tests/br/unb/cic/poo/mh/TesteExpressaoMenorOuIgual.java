@@ -1,10 +1,6 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.MenorOuIgual;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorBooleano;
-import br.unb.poo.mh.ValorInteiro;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -25,6 +21,9 @@ public class TesteExpressaoMenorOuIgual {
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         menor.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(menor);
     }
 
     @Test

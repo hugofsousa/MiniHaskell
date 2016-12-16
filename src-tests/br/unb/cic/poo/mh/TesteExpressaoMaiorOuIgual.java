@@ -15,16 +15,16 @@ public class TesteExpressaoMaiorOuIgual {
         ValorInteiro int100  = new ValorInteiro(100);
         ValorInteiro int90 = new ValorInteiro(90);
 
-        MaiorOuIgual menor = new MaiorOuIgual(int90, int100);
+        MaiorOuIgual maior = new MaiorOuIgual(int90, int100);
 
-        ValorBooleano res = (ValorBooleano)menor.avaliar();
+        ValorBooleano res = (ValorBooleano)maior.avaliar();
 
         Assert.assertEquals(false, res.getValor());
         
-        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
+        Assert.assertEquals(maior.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-        menor.aceitar(tde);
+        maior.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
     }
 
@@ -32,11 +32,11 @@ public class TesteExpressaoMaiorOuIgual {
     public void TesteMaiorOuIgualLimite() {
         ValorInteiro int100  = new ValorInteiro(100);
 
-        MaiorOuIgual menor = new MaiorOuIgual(int100, int100);
+        MaiorOuIgual maior = new MaiorOuIgual(int100, int100);
 
-        ValorBooleano res = (ValorBooleano)menor.avaliar();
+        ValorBooleano res = (ValorBooleano)maior.avaliar();
 
         Assert.assertEquals(true, res.getValor());
-        Assert.assertEquals(menor.tipo(), Tipo.Booleano);
+        Assert.assertEquals(maior.tipo(), Tipo.Booleano);
     }
 }

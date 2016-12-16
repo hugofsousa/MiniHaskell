@@ -29,5 +29,8 @@ public class TesteIfThenElse {
 		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         ite.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 8);
+
+		PrettyPrinter pp = new PrettyPrinter();
+		pp.visitar(ite);
 	}
 }
