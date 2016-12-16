@@ -1,27 +1,41 @@
 package br.unb.poo.mh;
 
-import java.util.ArrayList;
+public class ListaVazia<T extends Valor> extends ValorLista<T> {
 
-public class ListaVazia extends Lista {
+	public ListaVazia() {
+		super(null);
+	}
 
 	@Override
 	public Valor avaliar() {
-		return new ValorLista(new ArrayList<ValorInteiro>());
+			ListaVazia<T> vA = this;
+			Valor Resultado = vA.getCabeca();
+			return Resultado;
 	}
 
 	@Override
 	public Tipo tipo() {
-		return null;
+		return Tipo.ListaVazia;
 	}
 
 	@Override
 	public boolean checarTipo() {
-		return false;
+		return true;
 	}
 
 	@Override
-	public void aceitar(Visitor v) {
-		
+	public void aceitar(Visitor visitor) {
+		visitor.visitar(this);
 	}
 
+	@Override
+	public ValorLista<T> inserir(T novoValor) {
+		return new ListaComValor<T>(novoValor);
+	}
+
+	@Override
+	public ValorLista<T> remover() {
+		return null;
+	}	
+		
 }

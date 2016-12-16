@@ -1,52 +1,45 @@
 package br.unb.poo.mh;
 
-import java.util.ArrayList;
-import java.util.List;
+public class ListaComValor<T extends Valor> extends ValorLista<T> {
 
-public class ListaComValor extends Lista {
-	ValorParametrizado<?> cabeca;
-	Lista calda;
-
-	public ValorParametrizado<?> getCabeca() {
-		return cabeca;
+	public ListaComValor(T inicio) {
+		super(inicio);
+		ListaVazia<T> Resto = new ListaVazia<T>();
+		this.setCauda(Resto);
 	}
 
-	public Lista getCalda() {
-		return calda;
-	}
-
-	public ListaComValor(ValorParametrizado<?> cabeca, Lista calda){
-		this.cabeca = cabeca;
-		this.calda = calda;
-
-	}
-	
 	@Override
 	public Valor avaliar() {
-		List<ValorInteiro> lista = new ArrayList<>();
-		lista.add((ValorInteiro) cabeca.avaliar());
-		for(ValorInteiro vi : ((ValorLista) calda.avaliar()).getValor()){
-			lista.add((ValorInteiro) vi.avaliar());
-		}
-		
-		ValorLista valorLista = new ValorLista(lista);
-		
-		return valorLista;
+		return this;
 	}
 
 	@Override
 	public Tipo tipo() {
-		return null;
+		return Tipo.ListaComValor;
 	}
 
 	@Override
 	public boolean checarTipo() {
-		return false;
+		return true;
 	}
 
 	@Override
-	public void aceitar(Visitor v) {
-		v.visitar(this);
+	public void aceitar(Visitor visitor) {
+		visitor.visitar(this);
 	}
+
+	@Override
+	public ValorLista<T> inserir(T novoValor) {
+		this.setCauda(this.getCauda().inserir(novoValor));
+		
+		return this;
+	}
+
+	@Override
+	public ValorLista<T> remover() {
+		// TODO
+		return this;
+	}	
+	
 
 }

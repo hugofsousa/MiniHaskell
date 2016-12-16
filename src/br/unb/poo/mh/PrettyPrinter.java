@@ -125,10 +125,15 @@ public class PrettyPrinter implements Visitor{
 	}
 	
 	@Override
-	public void visitar(ListaComValor exp) {
-		exp.cabeca.aceitar(this);
-		System.out.print(", ");
-		exp.calda.aceitar(this);
+	public void visitar(ListaComValor<?> exp) {
+		exp.getCabeca().aceitar(this);
+		System.out.print(" ");
+		exp.getCauda().aceitar(this);
+	}
+	
+	@Override
+	public void visitar(ListaVazia<?> exp) {
+		System.out.print("");
 	}
 
 }

@@ -24,6 +24,6 @@ package br.unb.poo.mh;
  */
 public enum Tipo {
 
-	Inteiro, Booleano, Lista, Error, Funcao;
+	Inteiro, Booleano, Lista, Error, Funcao, ListaComValor, ListaVazia;
 	
 }

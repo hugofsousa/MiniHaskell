@@ -172,14 +172,11 @@ public class Refactoring implements Visitor{
     @Override
     public void visitar(ValorInteiro expressao) {}
 
-//    @Override
-//    public void visitar(ListaVazia<?> expressao) {}
-//
-//    @Override
-//    public void visitar(ListaNaoVazia<?> expressao) {}
-//
     @Override
-    public void visitar(ListaComValor exp) {
-    }
+	public void visitar(ListaComValor<?> exp) {}
+    
+	@Override
+	public void visitar(ListaVazia<?> exp) {}
+    
 
 }

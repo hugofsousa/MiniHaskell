@@ -124,7 +124,12 @@ public class TamanhoDasExpressoes implements Visitor {
 	}
 	
 	@Override
-	public void visitar(ListaComValor exp) {
-//		TODO
+	public void visitar(ListaComValor<?> exp) {
+		
+	}
+	
+	@Override
+	public void visitar(ListaVazia<?> exp) {
+		
 	}
 }
