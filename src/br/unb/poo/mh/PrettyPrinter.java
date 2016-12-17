@@ -45,7 +45,7 @@ public class PrettyPrinter implements Visitor{
 		System.out.print("then ");
 		exp.clausulaThen.aceitar(this);
 		
-		System.out.println("else " );
+		System.out.println("\nelse " );
 		exp.clausulaElse.aceitar(this);
 	}
 

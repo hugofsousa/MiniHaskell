@@ -1,20 +1,15 @@
 package br.unb.cic.poo.mh;
 
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
-
-import br.unb.poo.mh.Expressao;
-import br.unb.poo.mh.ExpressaoSoma;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorInteiro;
 
 
 public class TesteExpressaoSoma {
 
 	private ValorInteiro v5 = new ValorInteiro(5);
 	private ValorInteiro v10 = new ValorInteiro(10);
-	private Expressao soma = new ExpressaoSoma(v5, v10);
+	private ExpressaoSoma soma = new ExpressaoSoma(v5, v10);
 	
 	@Test
 	public void testeSomaSimples() {
@@ -25,6 +20,9 @@ public class TesteExpressaoSoma {
 		TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         soma.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+		PrettyPrinter pp = new PrettyPrinter();
+		pp.visitar(soma);
 	}
 	
 	@Test

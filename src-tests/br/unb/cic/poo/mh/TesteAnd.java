@@ -1,9 +1,6 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.And;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorBooleano;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -51,5 +48,8 @@ public class TesteAnd {
 
         Assert.assertEquals(Boolean.FALSE, res1.getValor());
         Assert.assertEquals(Boolean.TRUE, res2.getValor());
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(and1);
     }
 }

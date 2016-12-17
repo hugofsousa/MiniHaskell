@@ -26,6 +26,9 @@ public class TesteAplicacaoFuncao {
 		ValorInteiro resultado = (ValorInteiro) expressao.avaliar();
 
 		Assert.assertEquals(new Integer(8), resultado.getValor());
+
+		PrettyPrinter pp = new PrettyPrinter();
+		pp.visitar(expressao);
 	}
 
 	@Test

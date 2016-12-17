@@ -1,10 +1,6 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.Expressao;
-import br.unb.poo.mh.ExpressaoSubtracao;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorInteiro;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -26,6 +22,9 @@ public class TesteExpressaoSubtracao {
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
         subtracao.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(subtracao);
     }
 
     @Test

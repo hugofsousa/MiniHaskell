@@ -1,9 +1,6 @@
 package br.unb.cic.poo.mh;
 
-import br.unb.poo.mh.Or;
-import br.unb.poo.mh.TamanhoDasExpressoes;
-import br.unb.poo.mh.Tipo;
-import br.unb.poo.mh.ValorBooleano;
+import br.unb.poo.mh.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -14,26 +11,29 @@ public class TesteExpressaoOr {
         ValorBooleano falso  = new ValorBooleano(false);
         ValorBooleano verdadeiro = new ValorBooleano(true);
 
-        Or and1 = new Or(falso, verdadeiro);
-        Or and2 = new Or(falso, falso);
-        Or and3 = new Or(verdadeiro,falso);
-        Or and4 = new Or(verdadeiro, verdadeiro);
+        Or or1 = new Or(falso, verdadeiro);
+        Or or2 = new Or(falso, falso);
+        Or or3 = new Or(verdadeiro,falso);
+        Or or4 = new Or(verdadeiro, verdadeiro);
 
-        ValorBooleano res1 = (ValorBooleano)and1.avaliar();
-        ValorBooleano res2 = (ValorBooleano)and2.avaliar();
-        ValorBooleano res3 = (ValorBooleano)and3.avaliar();
-        ValorBooleano res4 = (ValorBooleano)and4.avaliar();
+        ValorBooleano res1 = (ValorBooleano)or1.avaliar();
+        ValorBooleano res2 = (ValorBooleano)or2.avaliar();
+        ValorBooleano res3 = (ValorBooleano)or3.avaliar();
+        ValorBooleano res4 = (ValorBooleano)or4.avaliar();
 
         Assert.assertEquals(Boolean.TRUE, res1.getValor());
         Assert.assertEquals(Boolean.FALSE, res2.getValor());
         Assert.assertEquals(Boolean.TRUE, res3.getValor());
         Assert.assertEquals(Boolean.TRUE, res4.getValor());
         
-        Assert.assertEquals(and1.tipo(), Tipo.Booleano);
+        Assert.assertEquals(or1.tipo(), Tipo.Booleano);
         
         TamanhoDasExpressoes tde = new TamanhoDasExpressoes();
-        and1.aceitar(tde);
+        or1.aceitar(tde);
         Assert.assertEquals(tde.getTamanho(), 3);
+
+        PrettyPrinter pp = new PrettyPrinter();
+        pp.visitar(or1);
     }
 
     @Test
@@ -41,15 +41,15 @@ public class TesteExpressaoOr {
         ValorBooleano falso  = new ValorBooleano(false);
         ValorBooleano verdadeiro = new ValorBooleano(true);
 
-        Or and1 = new Or(verdadeiro,falso);
-        Or and2 = new Or(verdadeiro,verdadeiro);
-        Or and3 = new Or(and1, verdadeiro);
-        Or and4 = new Or(and2, verdadeiro);
+        Or or1 = new Or(verdadeiro,falso);
+        Or or2 = new Or(verdadeiro,verdadeiro);
+        Or or3 = new Or(or1, verdadeiro);
+        Or or4 = new Or(or2, verdadeiro);
         
-        Assert.assertEquals(and1.tipo(), Tipo.Booleano);
+        Assert.assertEquals(or1.tipo(), Tipo.Booleano);
 
-        ValorBooleano res1 = (ValorBooleano)and3.avaliar();
-        ValorBooleano res2 = (ValorBooleano)and4.avaliar();
+        ValorBooleano res1 = (ValorBooleano)or3.avaliar();
+        ValorBooleano res2 = (ValorBooleano)or4.avaliar();
 
         Assert.assertEquals(Boolean.TRUE, res1.getValor());
         Assert.assertEquals(Boolean.TRUE, res2.getValor());
